@@ -18,6 +18,14 @@ Senior Infrastructure Architect with **18+ years** of battle-tested experience i
 
 ---
 
+## 🧠 Engineering & Operational Standards
+
+- **Proactive Remediation:** Systems are architected to self-heal. I automate repetitive tasks and build intelligent workflows to mitigate risks before they impact end-users, requiring zero manual follow-ups.
+- **Outcome-Oriented Execution:** Technical architecture is strictly aligned with business metrics. The priority is always maximizing system uptime, protecting revenue during massive traffic spikes, and driving infrastructure costs to absolute zero.
+- **Continuous Adaptation:** Agile, cloud-native environments require speed. I rapidly transition legacy setups to modern, decoupled architectures to meet shifting market demands and scale instantly.
+
+---
+
 ## 🛠️ Technical Skills
 
 <table>
@@ -88,7 +96,7 @@ Senior Infrastructure Architect with **18+ years** of battle-tested experience i
 ## 💼 Core Systems Engineering Experience
 
 ### 🚀 Senior DevOps Engineer | **BlueDrive IT Services**
-*November 2024 - July 2025*
+*February 2025 - July 2025*
 
 - ✅ Managed AWS and multi-cloud infrastructure, ensuring high availability for massive client hosting requirements.
 - ✅ Orchestrated Kubernetes clusters specifically tuned for AI application deployments and scalable development environments.
@@ -123,6 +131,9 @@ Senior Infrastructure Architect with **18+ years** of battle-tested experience i
 - 🔗 **Global Enterprise Web Architecture:** Architected and deployed a multi-region, high-availability enterprise web platform engineered to sustain millions of concurrent user sessions. Implemented advanced Edge caching, global load balancing, and auto-scaling Kubernetes clusters to guarantee 99.999% uptime and zero-latency performance during massive global traffic spikes.
 - 🔗 **Enterprise Proxy Engine:** Engineered a custom proxy gateway on bare-metal OVH Linux routing high-volume traffic through 30,000 upstream mobile proxy ports to bypass strict enterprise anti-bot systems (Datadome, PerimeterX).
 - 🔗 **Decoupled AWS S3 Architecture (Cypress Genesis):** Designed a highly scalable headless AWS S3 and CloudFront CDN architecture to serve 600GB of biological data with 99.999% durability and zero server CPU overload.
+
+### **Edge Computing & IAM**
+- 🔗 **Serverless Edge Auth Gateway:** Engineered a zero-latency OAuth2 proxy utilizing Cloudflare Workers. Facilitates secure authentication for Headless/Git-based Content Management Systems without the overhead or vulnerabilities of a monolithic backend server.
 
 ### **Legacy Enterprise Builds**
 - 🔗 **Osiris Browser Infrastructure (Decenternet):** Built a secure Linux backend for 10M+ users using RHEL and Docker.
