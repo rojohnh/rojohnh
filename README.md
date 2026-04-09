@@ -39,7 +39,7 @@ Senior Infrastructure Architect with **18+ years** of battle-tested experience i
 </tr>
 <tr>
 <td><strong>🏗️ Infrastructure as Code</strong></td>
-<td>Terraform, OpenTofu, NixOS, Ansible</td>
+<td>Terraform, OpenTofu, CloudFormation, NixOS, Ansible</td>
 </tr>
 <tr>
 <td><strong>🔄 CI/CD & GitOps</strong></td>
@@ -47,7 +47,7 @@ Senior Infrastructure Architect with **18+ years** of battle-tested experience i
 </tr>
 <tr>
 <td><strong>📊 Observability & AIOps</strong></td>
-<td>Zabbix 7.0, Elasticsearch (ELK), Prometheus, Grafana, n8n Automation, RAG-based AI Integrations</td>
+<td>Zabbix 7.0+, Elasticsearch (ELK), Prometheus, Grafana, n8n Automation, RAG-based AI Integrations</td>
 </tr>
 <tr>
 <td><strong>💻 OS & Scripting</strong></td>
