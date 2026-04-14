@@ -42,6 +42,7 @@ Senior Infrastructure Architect with **18+ years of battle-tested experience** i
 ![OpenShift](https://img.shields.io/badge/Red_Hat_OpenShift-EE0000?style=flat-square&logo=redhat&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=flat-square&logo=opentofu&logoColor=black)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=flat-square&logo=nixos&logoColor=white)
 
@@ -72,7 +73,7 @@ Senior Infrastructure Architect with **18+ years of battle-tested experience** i
 ### 🦅 Lead Systems Architect | DITE Consortium
 *2018 - Present*
 * **Enterprise Infrastructure:** Lead Architect for an elite engineering consortium specializing in cloud-agnostic enterprise deployments.
-* **Cloud Migration & IaC:** Automated multi-cloud provisioning via Terraform across AWS, GCP, and Azure, eliminating massive upfront hardware CapEx for enterprise clients.
+* **Cloud Migration & IaC:** Automated multi-cloud provisioning via Terraform and OpenTofu across AWS, GCP, and Azure, eliminating massive upfront hardware CapEx for enterprise clients.
 * **Disaster Recovery:** Architected immutable, Write-Once-Read-Many (WORM) disaster recovery vaults to mathematically neutralize ransomware attacks and ensure continuous data protection.
 * **High Availability:** Deployed and managed highly available container orchestration using Kubernetes and Red Hat OpenShift (OCP) for mission-critical applications.
 
@@ -87,7 +88,7 @@ Senior Infrastructure Architect with **18+ years of battle-tested experience** i
 *August 2025 - Present*
 * **Hybrid Cloud Orchestration:** Architected and managed containerized workloads across GKE (Google), EKS (AWS), and AKS (Azure), ensuring 99.99% uptime for hybrid environments.
 * **Security Hardening:** Enforced strict RBAC, Network Policies, and Azure Policy for high-compliance enterprise clients, adhering to "Security by Design" principles.
-* **Immutable Infrastructure:** Deployed NixOS QCOW images to DigitalOcean via Terraform, establishing fully reproducible and rollback-capable server environments.
+* **Immutable Infrastructure:** Deployed NixOS QCOW images to DigitalOcean via Terraform/OpenTofu, establishing fully reproducible and rollback-capable server environments.
 * **AIOps:** Developed internal RAG chatbots utilizing self-hosted n8n workflows and Elasticsearch to automate log analysis and proactive issue remediation.
 
 ---
@@ -109,7 +110,7 @@ Senior Infrastructure Architect with **18+ years of battle-tested experience** i
 ### 🚀 IT Technical Manager / Security Administrator | Real Estate IQ
 *April 2019 - September 2023*
 * Deployed Falco and KubeArmor for real-time threat detection across production Linux-based web servers.
-* Led the seamless migration of legacy AWS Linux instances into secure, modern architectures using Terraform and Ansible.
+* Led the seamless migration of legacy AWS Linux instances into secure, modern architectures using Terraform/OpenTofu and Ansible.
 
 ### 🚀 Tier 3 Systems Administrator | SilverNetworks
 *February 2017 - April 2019*
