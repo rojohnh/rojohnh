@@ -96,7 +96,7 @@ Senior Infrastructure Architect with **18+ years of battle-tested experience** i
 ## 🛠️ Core Systems Engineering Experience
 
 ### 🚀 Senior DevOps Engineer | BlueDrive IT Services
-*November 2024 - July 2025*
+*November 2024 - April 2026*
 * Managed AWS and multi-cloud infrastructure, ensuring high availability for massive client hosting requirements.
 * Orchestrated Kubernetes clusters specifically tuned for AI application deployments and scalable development environments.
 * Architected a robust Zabbix and Elasticsearch cluster for centralized logging, reducing incident response times drastically.
