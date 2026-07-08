@@ -1,6 +1,6 @@
 <div align="center">
   <h1>👨‍💻 Rojohn A. Hernia</h1>
-  <h3>Lead AI Developer & Infrastructure Architect | Platform Ops Expert | Fractional CTO</h3>
+  <h3>Lead Infrastructure Architect | AI Platform Ops Expert | DevSecOps Engr | Fractional CTO</h3>
   <p>📍 Davao City, Philippines | 🌐 APAC / EMEA / US & Canada (Remote)</p>
 
   [![DITE Consortium](https://img.shields.io/badge/DITE_Profile-0f172a?style=for-the-badge&logo=googlecloud&logoColor=10b981)](https://roj.davaoitengineers.com)
