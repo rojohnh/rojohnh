@@ -1,6 +1,6 @@
 <div align="center">
   <h1>👨‍💻 Rojohn A. Hernia</h1>
-  <h3>Lead Infrastructure Architect | Fractional CTO | Platform Ops Expert</h3>
+  <h3>Lead Infrastructure Architect | AI Platform Engineer | Fractional CTO</h3>
   <p>📍 Davao City, Philippines | 🌐 APAC / EMEA / US & Canada (Remote)</p>
   
   [![DITE Consortium](https://img.shields.io/badge/DITE_Profile-0f172a?style=for-the-badge&logo=googlecloud&logoColor=10b981)](https://roj.davaoitengineers.com)
@@ -8,144 +8,119 @@
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rojohn-hernia/)
   [![Email](https://img.shields.io/badge/Email-rhernia@davaoitengineers.com-ea4335?style=for-the-badge&logo=gmail)](mailto:rhernia@davaoitengineers.com)
 </div>
-
 <br/>
 
 ## 💼 Professional Summary
+Senior Infrastructure Architect and AI Platform Engineer with 18+ years of battle tested experience in Platform Operations, Linux Systems Administration, and high concurrency cloud ecosystems. Currently engineering AI accelerated DevOps at enterprise scale integrating Anthropic Claude, OpenAI, and Google Gemini APIs alongside agentic workflows via the Model Context Protocol. Proven track record of migrating legacy monoliths to zero latency Edge networks, engineering self healing Kubernetes environments, and delivering compliance ready architectures across AWS, GCP, Azure, and bare metal servers while driving infrastructure costs toward absolute zero.
 
-Senior Infrastructure Architect with **18+ years of battle-tested experience** in Platform Operations, Linux Systems Administration, and high-concurrency cloud ecosystems. Specialized in migrating legacy monolithic systems to zero-latency Edge networks and engineering self-healing Kubernetes environments. Proven track record of eliminating massive upfront CapEx for enterprise clients via cloud-agnostic Infrastructure as Code (Terraform/OpenTofu) and delivering compliance-ready, zero-downtime architectures across AWS, GCP, Azure, and bare-metal servers.
+---
+
+## 🤖 AI & LLM Engineering
+![Anthropic Claude](https://img.shields.io/badge/Anthropic_Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_GPT-412991?style=flat-square&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-0f172a?style=flat-square&logo=anthropic&logoColor=10b981)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white)
+![Make](https://img.shields.io/badge/Make.com-6D00CC?style=flat-square&logo=make&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+
+* 🧠 **LLM API Integrations:** Production integrations with Anthropic Claude, OpenAI GPT, and Google Gemini powering developer tooling, CRM automation, and business process AI.
+* 🔌 **Agentic Workflows & MCP:** Design and operate Model Context Protocol connectors bridging AI agents to Jira, Confluence, Bitbucket, Datadog, and AWS enabling agents to autonomously triage incidents, run observability queries, and enforce deployment pre flight checks.
+* 📚 **RAG & Vector Databases:** Retrieval Augmented Generation pipelines on PostgreSQL 16 with pgvector, Elasticsearch, and Cloudflare Vectorize.
+* ⚙️ **AI Workflow Automation:** Orchestration with self hosted n8n, Zapier, and Make utilizing REST and webhook API integrations glued with Python, JavaScript, and Bash.
 
 ---
 
 ## 🧠 Engineering & Operational Standards
+> *"We don't just write code. We engineer legacies. No fluff. Just battle tested infrastructure."*
 
-> *"We don't just write code. We engineer legacies. No fluff. Just battle-tested infrastructure."*
-
-* 🛡️ **Proactive Remediation:** Systems are architected to self-heal. I automate repetitive tasks and build intelligent workflows to mitigate risks before they impact end-users, requiring *zero manual follow-ups*.
-* 🎯 **Outcome-Oriented Execution:** Technical architecture is strictly aligned with business metrics. The priority is always maximizing system uptime, protecting revenue during massive traffic spikes, and driving infrastructure costs to absolute zero ($0 idle cost).
-* ⚡ **Continuous Adaptation:** Agile, cloud-native environments require speed. I rapidly transition legacy setups to modern, decoupled architectures to meet shifting market demands and scale instantly.
+* 🛡️ **Proactive Remediation:** Systems are architected to self heal. I automate repetitive tasks and build intelligent workflows to mitigate risks before they impact end users, requiring zero manual follow ups.
+* 🎯 **Outcome Oriented Execution:** Technical architecture is strictly aligned with business metrics. The priority is always maximizing system uptime, protecting revenue during massive traffic spikes, and driving infrastructure costs to absolute zero.
+* ⚡ **Continuous Adaptation:** Agile cloud native environments require extreme speed. I leverage AI heavily to transition legacy setups into modern decoupled architectures that meet shifting market demands instantly.
 
 ---
 
 ## ⚙️ Technical Arsenal
-
 ### ☁️ Cloud & Edge Platforms
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ### 🚢 Container Orchestration & IaC
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![OpenShift](https://img.shields.io/badge/Red_Hat_OpenShift-EE0000?style=flat-square&logo=redhat&logoColor=white)
+![AWS ECS/Fargate](https://img.shields.io/badge/AWS_ECS%2FFargate-FF9900?style=flat-square&logo=amazonecs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=flat-square&logo=opentofu&logoColor=black)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=flat-square&logo=nixos&logoColor=white)
 
-### 🔄 CI/CD & Observability
+### 🔄 CI/CD, Observability & Data Streaming
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Bitbucket Pipelines](https://img.shields.io/badge/Bitbucket_Pipelines-0052CC?style=flat-square&logo=bitbucket&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-FF6D5W?style=flat-square&logo=n8n&logoColor=white)
-
-### 🐧 OS, Networking & Security
-![RHEL 9](https://img.shields.io/badge/RHEL_9-CC0000?style=flat-square&logo=redhat&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 <br/>
 
-> **Specialized Security & Networking:** High-Concurrency Mobile Proxy Routing (30k+ ports), SOC2/HIPAA Readiness, Zero Trust, WORM Storage, Anti-Bot Bypass, GeoIP Filtering, SELinux.
+> **Specialized Security & Networking:** PII and Legal data governance via AWS Lake Formation, High Concurrency Mobile Proxy Routing for 30k ports, SOC2 and HIPAA Readiness, Zero Trust OPSEC, Write Once Read Many storage, and SELinux.
 
 ---
 
 ## 💼 Executive & Architecture Experience
 
+### ⚖️ Senior DevOps Engineer | LegalMatch 
+*2026 , Present*
+* **Legal Tech Platform Ops:** Ensure high availability and strict PII data security for a US platform matching clients with attorneys utilizing AWS ECS, Fargate, ALB, and RDS PostgreSQL 16 with pgvector all provisioned via Terraform.
+* **Zero Downtime CI/CD:** Own Jenkins and Bitbucket Pipelines for multi repo cross team releases built with automated pre flight checks and rollback strategies that safeguard deployments and eliminate weekend firefighting.
+* **AI Accelerated DevOps:** Heavy production use of Claude and Model Context Protocol connectors alongside Datadog Bits AI to automate ticket workflows, observability queries, incident triage, and runbook generation.
+* **Data & PII Governance:** Operate an S3 medallion data lake with AWS Glue, Athena, and Lake Formation tag based RBAC masking PII for strict legal data compliance.
+
 ### 🦅 Lead Systems Architect | DITE Consortium
-*2018 - Present*
-* **Enterprise Infrastructure:** Lead Architect for an elite engineering consortium specializing in cloud-agnostic enterprise deployments.
-* **Cloud Migration & IaC:** Automated multi-cloud provisioning via Terraform and OpenTofu across AWS, GCP, and Azure, eliminating massive upfront hardware CapEx for enterprise clients.
-* **Disaster Recovery:** Architected immutable, Write-Once-Read-Many (WORM) disaster recovery vaults to mathematically neutralize ransomware attacks and ensure continuous data protection.
-* **High Availability:** Deployed and managed highly available container orchestration using Kubernetes and Red Hat OpenShift (OCP) for mission-critical applications.
+*2018 , Present*
+* **Enterprise Infrastructure:** Lead Architect for an elite engineering consortium specializing in cloud agnostic enterprise deployments.
+* **Cloud Migration & IaC:** Automated multi cloud provisioning via Terraform and OpenTofu across AWS, GCP, and Azure eliminating massive upfront hardware CapEx for enterprise clients.
+* **Disaster Recovery:** Architected immutable Write Once Read Many disaster recovery vaults to mathematically neutralize ransomware attacks.
 
-### ⚡ Founder & Lead Platform Engineer | CloudVCard.net
-*2024 - Present*
-* **Edge SaaS Architecture:** Architected and launched a premium enterprise digital identity SaaS platform serving high-performing professionals and real estate brokers.
-* **Zero-Idle Cost Infrastructure:** Engineered a serverless, decoupled architecture utilizing Cloudflare Pages for a zero-latency global frontend with $0 idle server costs.
-* **Automated Deployments:** Built fully automated GitOps CI/CD pipelines via GitHub Actions for seamless, zero-downtime edge deployments.
-* **Backend Concurrency:** Integrated Supabase and PostgreSQL to handle highly scalable, global backend concurrency and dynamic SVG QR code generation.
+### ⚡ Founder & Lead Platform Engineer | CloudVCard
+*2024 , Present*
+* **Edge SaaS Architecture:** Architected and launched a premium enterprise digital identity SaaS platform serving high performing professionals and real estate brokers.
+* **Zero Idle Cost Infrastructure:** Engineered a serverless decoupled architecture utilizing Cloudflare Pages for a zero latency global frontend with no idle server costs.
 
-### 🌐 Senior DevOps Consultant & Infrastructure Architect | Freelance / Remote Contracts
-*August 2025 - Present*
-* **Hybrid Cloud Orchestration:** Architected and managed containerized workloads across GKE (Google), EKS (AWS), and AKS (Azure), ensuring 99.99% uptime for hybrid environments.
-* **Security Hardening:** Enforced strict RBAC, Network Policies, and Azure Policy for high-compliance enterprise clients, adhering to "Security by Design" principles.
-* **Immutable Infrastructure:** Deployed NixOS QCOW images to DigitalOcean via Terraform/OpenTofu, establishing fully reproducible and rollback-capable server environments.
-* **AIOps:** Developed internal RAG chatbots utilizing self-hosted n8n workflows and Elasticsearch to automate log analysis and proactive issue remediation.
-
----
-
-## 🛠️ Core Systems Engineering Experience
-
-### 🚀 Senior DevOps Engineer | BlueDrive IT Services
-*November 2024 - April 2026*
-* Managed AWS and multi-cloud infrastructure, ensuring high availability for massive client hosting requirements.
-* Orchestrated Kubernetes clusters specifically tuned for AI application deployments and scalable development environments.
-* Architected a robust Zabbix and Elasticsearch cluster for centralized logging, reducing incident response times drastically.
-
-### 🚀 Sr. Linux Engineer | Alorica Systems & Services Technologies, Inc.
-*November 2023 - February 2025*
-* Managed **10,000+ global Linux servers** (RHEL, CentOS) across VMware and Azure hybrid environments.
-* Directed day-2 OpenShift cluster operations, including worker node scaling, Crash LoopBackOff resolution, and Security Context Constraints (SCC).
-* Achieved **100% internal audit compliance** by strictly hardening servers via SELinux policies, Fail2ban, and Trivy vulnerability scanning.
-
-### 🚀 IT Technical Manager / Security Administrator | Real Estate IQ
-*April 2019 - September 2023*
-* Deployed Falco and KubeArmor for real-time threat detection across production Linux-based web servers.
-* Led the seamless migration of legacy AWS Linux instances into secure, modern architectures using Terraform/OpenTofu and Ansible.
-
-### 🚀 Tier 3 Systems Administrator | SilverNetworks
-*February 2017 - April 2019*
-* Maintained 40+ production RHEL/CentOS servers, performing deep kernel-level performance tuning (sysctl, systemd).
-* Scripted and fully automated WHMCS and Discourse deployments utilizing custom Bash and Python automation.
-
-*(Note: Additional earlier history from 2007-2017 available upon request, including IT Dept. Head at Callbox and Web Server Admin at HP Outsourcing).*
+### 🌐 Senior DevOps Consultant & Infrastructure Architect | Freelance
+*August 2025 , Present*
+* **Hybrid Cloud Orchestration:** Architected and managed containerized workloads across GKE, EKS, and AKS ensuring extreme uptime for hybrid environments.
+* **AIOps & AI Assistants:** Developed internal RAG chatbots using self hosted n8n workflows and Elasticsearch to automate log analysis and proactive issue remediation.
 
 ---
 
 ## 📂 Featured Enterprise Projects
 
-### High-Concurrency & Decoupled Architecture
-* 🔗 **Global Enterprise Web Architecture:** Architected and deployed a multi-region, high-availability enterprise web platform engineered to sustain millions of concurrent user sessions. Implemented advanced Edge caching, global load balancing, and auto-scaling Kubernetes clusters to guarantee 99.999% uptime and zero-latency performance during massive global traffic spikes.
-* 🔗 **Enterprise Proxy Engine:** Engineered a custom proxy gateway on bare-metal OVH Linux routing high-volume traffic through 30,000 upstream mobile proxy ports to bypass strict enterprise anti-bot systems (Datadome, PerimeterX).
-* 🔗 **Decoupled AWS S3 Architecture (Cypress Genesis):** Designed a highly scalable headless AWS S3 and CloudFront CDN architecture to serve 600GB of biological data with 99.999% durability and zero server CPU overload.
+### Zero Trust AI Databank (Enterprise RAG Protocol)
+* 🤖 **Serverless AI Command Center:** Engineered a secure proprietary AI assistant designed to replace bloated enterprise CRMs for Real Estate, Legal Firms, and HR.
+* 🤖 **Vector Memory & Telemetry:** Integrated Cloudflare Vectorize for mathematical semantic search and Cloudflare D1 for structured text memory. Utilized Cloudflare AI Gateway to intercept identical queries, driving token burn rates to zero.
+* 🤖 **Model Context Protocol:** Wired complex internal data sources to public LLMs without risking data leakage, powered by BAAI embeddings, Llama instruction models, and secured by Cloudflare Zero Trust One Time PIN access.
 
-### Edge Computing & IAM
-* 🔗 **Serverless Edge Auth Gateway:** Engineered a zero-latency OAuth2 proxy utilizing Cloudflare Workers. Facilitates secure authentication for Headless/Git-based Content Management Systems without the overhead or vulnerabilities of a monolithic backend server.
-
-### Legacy Enterprise Builds
-* 🔗 **Osiris Browser Infrastructure (Decenternet):** Built a secure Linux backend for 10M+ users using RHEL and Docker.
-* 🔗 **Coineru Cryptocurrency Platform:** Architected highly available Kubernetes clusters on Ubuntu for high-frequency trading.
+### High Concurrency & Decoupled Architecture
+* 🔗 **Enterprise Proxy Engine:** Engineered a custom proxy gateway on bare metal OVH Linux routing high volume traffic through 30,000 upstream mobile proxy ports to bypass strict enterprise anti bot systems like Datadome and PerimeterX.
+* 🔗 **Decoupled AWS S3 Architecture (Cypress Genesis):** Designed a highly scalable headless AWS S3 and CloudFront CDN architecture to serve 600GB of biological data with extreme durability and zero server CPU overload.
 
 ---
 
 ## 🎓 Education & Fundamentals
-
-**BS Information Technology** | *AMA Computer College (March 2007)*
+**BS Information Technology** | *AMA Computer College, Iloilo City Campus (October 2007)*
 *Focus: Unix/Linux System Administration, Network Security, Scripting*
 
 <br/>
-
 <div align="center">
-  <i>Currently accepting select enterprise contracts and Fractional CTO roles.</i><br/><br/>
+  <i>Currently accepting select enterprise contracts, AI platform engineering, and Fractional CTO roles.</i><br/><br/>
   <a href="https://github.com/rojohnh">
     <img src="https://github-readme-stats.vercel.app/api?username=rojohnh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a" alt="Rojohn's GitHub Stats" />
   </a>
