@@ -33,12 +33,30 @@ Senior Infrastructure Architect and AI Developer with **18+ years of battle-test
 ![Cloudflare D1](https://img.shields.io/badge/Cloudflare_D1-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Cloudflare AI Gateway](https://img.shields.io/badge/Cloudflare_AI_Gateway-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-* 🧠 **LLM API Integrations:** Production integrations with Anthropic Claude (Claude Code, Agent SDK, Cowork), OpenAI GPT, Google Gemini, and Meta Llama — powering developer tooling, CRM/workflow automation, and business-process AI.
+* 🧠 **LLM APIs in production:** Anthropic Claude (Messages API, tool use with `strict` schemas, structured outputs, prompt caching), OpenAI GPT, Google Gemini, Meta Llama — wired into developer tooling, CRM/workflow automation, and business-process AI. **Claude Code, Claude Projects, connected knowledge, and the Agent SDK** are daily drivers, not demos; Cursor and Replit where they fit.
+* 🎛️ **Controlled AI agents with human approval points:** Tool registries where risk classification lives in **code, not the system prompt** — so a prompt injection buried in customer text can make an agent *attempt* an action but never complete it. Durable run state in Postgres lets an agent park on a sensitive call, wait for a signed expiring approval link, and resume hours later in a different process. Rejections feed back as tool results so the agent adapts instead of blindly retrying.
+* 🔁 **Production n8n workflows:** Not happy-path demos — error branches that are actually wired, retries with full jitter, idempotency keys enforced by unique constraints, business thresholds in Code nodes where they can be diffed, and grouped alerting with an explicit `UNKNOWN` state for when the monitor itself goes blind. Make and Zapier where they suit the job — and I'll tell a client when the honest answer is *buy the product, build nothing*.
+* 📄 **Document extraction & intelligent workflows:** Native PDF reading with Claude (no OCR-then-regex, which loses exactly the table structure that matters) — then line items **re-summed in code**, because a language model is the wrong tool for addition and an invoice that doesn't balance is the last one you want auto-posted.
+* 📚 **RAG, knowledge assistants & vector search:** **PostgreSQL 16 + pgvector**, Cloudflare Vectorize, Elasticsearch. Every `[n]` citation verified against the chunks actually retrieved — a fabricated citation is caught and logged, never shipped, because a wrong answer that *looks* sourced is the one people believe.
 * 🛡️ **Serverless Enterprise RAG (Zero Trust AI Databank):** Architected a serverless RAG command center on Cloudflare Workers + **Vectorize** (semantic search) + **D1** (structured memory), powered by BAAI embeddings and Meta Llama instruction models; **Cloudflare AI Gateway** caching drives token burn on repeat queries to zero.
 * 🔌 **Agentic Workflows & MCP:** Design and operate **Model Context Protocol (MCP)** connectors bridging AI agents to Jira/Confluence, Bitbucket, Datadog, and AWS — enabling agents to triage incidents, run observability queries, draft runbooks, and enforce deployment pre-flight checks autonomously.
-* 📚 **RAG & Vector Databases:** Retrieval-Augmented Generation pipelines on **PostgreSQL 16 + pgvector** and Elasticsearch; built internal RAG chatbots (self-hosted n8n + Elasticsearch) that automate log analysis and proactive remediation.
-* 🗂️ **CRM & Business-Process Automation:** Agentic n8n + LangChain pipelines replacing manual data entry with zero-error LLM integrations into enterprise CRM systems; orchestration with Zapier and Make; REST/webhook API integrations glued with Python, JavaScript/TypeScript, and Bash.
-* 📊 **AIOps & LLM Observability:** Datadog Bits AI and LLM Observability for monitoring AI workloads; Kubernetes clusters tuned specifically for AI application deployments.
+* 🗂️ **CRM & business-process automation:** Agentic n8n + LangChain pipelines replacing manual data entry with zero-error LLM integrations into enterprise CRM and field-service systems (Xero / ServiceM8-shaped bill posting, quote intake, job scheduling); REST/webhook/OAuth2 integrations glued with TypeScript, Python, and Bash.
+* 🔐 **Secure credentials & permissions:** Secrets in Worker/secret stores rather than config, OAuth2 refresh handled by the platform, HMAC-signed single-purpose expiring approval tokens with timing-safe verification, tenant isolation via Postgres RLS **plus** explicit query scoping, and log redaction applied on ingest — because redacting at the sink is already too late.
+* 🧪 **Testing, logging, monitoring & failure handling:** Vitest suites running against in-memory ports (no network, sub-second, so they actually get run), one-JSON-object-per-line structured logs, mechanical CI validation of workflow exports, Datadog Bits AI and LLM Observability for AI workloads, and documented blast radius per failure mode.
+* 📊 **AIOps:** Kubernetes clusters tuned specifically for AI application deployments; self-healing remediation pipelines that mitigate risk before end-users notice.
+
+### 🔍 Proof — code you can actually read
+
+| Capability | Where to look |
+| :--- | :--- |
+| Production n8n workflows with real error handling | [**ai-automation-blueprints**](https://github.com/rojohnh/ai-automation-blueprints/tree/main/workflows) — 4 importable workflows, 55 nodes, CI-validated |
+| Controlled agent + durable human approval gate | [**approval-gateway**](https://github.com/rojohnh/ai-automation-blueprints/tree/main/services/approval-gateway) — TypeScript on Workers, 62 tests, typecheck clean |
+| Document extraction gated on arithmetic | [02-document-extraction-to-accounting.json](https://github.com/rojohnh/ai-automation-blueprints/blob/main/workflows/02-document-extraction-to-accounting.json) |
+| RAG with verified citations | [03-knowledge-assistant-rag.json](https://github.com/rojohnh/ai-automation-blueprints/blob/main/workflows/03-knowledge-assistant-rag.json) |
+| Postgres/pgvector schema, RLS, expiry sweep | [db/schema.sql](https://github.com/rojohnh/ai-automation-blueprints/blob/main/db/schema.sql) |
+| Live AI vision extraction + injection-resistant prompts | [**cloudvcard.net**](https://cloudvcard.net) — Workers AI vision with model fallback chains, structured JSON output, and PII-refusal prompts, running in production *(source private — happy to walk through it)* |
+| Failure modes, runbook, security trade-offs | [docs/](https://github.com/rojohnh/ai-automation-blueprints/tree/main/docs) |
+| When **not** to build custom | [choosing-the-tool.md](https://github.com/rojohnh/ai-automation-blueprints/blob/main/docs/choosing-the-tool.md) |
 
 ---
 
