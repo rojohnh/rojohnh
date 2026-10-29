@@ -114,19 +114,11 @@ Senior Infrastructure Architect and AI Developer with **18+ years of battle-test
 
 <br/>
 
-> **Specialized Operations:** RAG & MCP Integrations, CRM Automation, Cloudflare AI Gateway, PII/Legal data governance (AWS Lake Formation, IAM Least Privilege), High-Concurrency Mobile Proxy Routing (30k+ ports), SOC2/HIPAA Readiness, Zero Trust, WORM Storage, Anti-Bot Bypass, GeoIP Filtering, SELinux.
+> **Specialized Operations:** RAG & MCP Integrations, CRM Automation, Cloudflare AI Gateway, PII data governance (AWS Lake Formation, IAM Least Privilege), High-Concurrency Mobile Proxy Routing (30k+ ports), SOC2/HIPAA Readiness, Zero Trust, WORM Storage, Anti-Bot Bypass, GeoIP Filtering, SELinux.
 
 ---
 
 ## 💼 Executive & Architecture Experience
-
-### ⚖️ Senior DevOps Engineer | LegalMatch (US Legal Tech)
-*2026 – Present*
-* **Legal-Tech Platform Ops:** Ensure high availability and strict PII/legal-data security for a US platform matching clients with attorneys — AWS ECS/Fargate, ALB, RDS PostgreSQL 16 (**pgvector**), ECR, S3, EFS, all provisioned via Terraform with enforced cost-allocation tagging.
-* **Zero-Downtime CI/CD:** Own Jenkins + Bitbucket Pipelines for multi-repo, cross-team releases (Kafka eventing framework); built automated pre-flight checks and rollback strategies that safeguard deployments and eliminate weekend firefighting.
-* **AI-Accelerated DevOps:** Heavy production use of **Claude + MCP connectors** (Jira/Confluence, Datadog) and **Datadog Bits AI** to automate ticket workflows, observability queries, incident triage, and runbook generation.
-* **FinOps / Cost Optimization:** Co-own the AWS cost-optimization epic — Datadog Cloud Cost Management waste dashboards, AWS Cost Explorer & Anomaly Detection, and retroactive + Terraform-enforced tagging governance.
-* **Data & PII Governance:** Operate an S3 medallion data lake (Raw/Refined/Curated) with AWS Glue, Athena, and **Lake Formation tag-based RBAC** masking PII for legal data compliance.
 
 ### 🦅 Lead Systems Architect & AI Developer | DITE Consortium
 *2018 – Present*
@@ -185,7 +177,7 @@ Senior Infrastructure Architect and AI Developer with **18+ years of battle-test
 
 ### AI, Agents & Automation
 * 🤖 **Zero Trust AI Databank (Enterprise RAG Protocol):** Serverless AI command center designed to replace bloated enterprise CRMs — Cloudflare Vectorize for semantic search, D1 for structured text memory, and AI Gateway query caching driving token burn to absolute zero; MCP wiring connects internal data sources to public LLMs (BAAI embeddings + Llama instruction models) without data leakage or hallucination.
-* 🤖 **MCP-Driven AIOps Pipeline:** Wired LLM agents (Claude + Model Context Protocol) into Jira, Confluence, Bitbucket, and Datadog — automating incident triage, deployment pre-flight validation, worklog/ticket hygiene, and runbook generation for an enterprise legal-tech platform.
+* 🤖 **MCP-Driven AIOps Pipeline:** Wired LLM agents (Claude + Model Context Protocol) into Jira, Confluence, Bitbucket, and Datadog — automating incident triage, deployment pre-flight validation, worklog/ticket hygiene, and runbook generation for a production enterprise platform.
 * 🤖 **Internal RAG Chatbot Platform:** Self-hosted n8n + Elasticsearch retrieval pipelines that let engineers query logs and infrastructure state in natural language, cutting log-analysis toil and enabling proactive remediation.
 * 🤖 **Vector-Search Ready Data Platform:** PostgreSQL 16 + pgvector on RDS backing semantic search and RAG workloads, fed by an S3 medallion data lake (Glue/Athena) with Lake Formation PII masking.
 
